@@ -1,0 +1,38 @@
+{
+  "name": "chalkncharts-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/maps": "^1.1.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^9.0.2",
+    "ejs": "^3.1.6",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "http-status": "^1.5.2",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "engines": {
+    "node": "14.17.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
